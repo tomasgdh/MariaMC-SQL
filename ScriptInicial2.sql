@@ -1,9 +1,4 @@
-USE [master]
-GO
-/****** Object:  Database [Maria_MC]    Script Date: 27/12/2024 16:02:40 ******/
-CREATE DATABASE [Maria_MC]
-GO
-USE [Maria_MC]
+USE [w370070_Maria_MC]
 GO
 BEGIN
 EXEC [w370070_Maria_MC].[dbo].[sp_fulltext_database] @action = 'enable'
